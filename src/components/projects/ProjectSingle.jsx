@@ -14,13 +14,11 @@ const ProjectSingle = ({ title, category, image }) => {
 		>
 			<Link to="/projects/single-project" aria-label="Single Project">
 				<div className="w-full mt-5 shadow-lg cursor-pointer h-full rounded-xl hover:shadow-xl sm:mb-0 bg-secondary-light dark:bg-ternary-dark">
-					{/* <div className='w-full h-full'> */}
 						<img
 							src={image}
-							className="object-cover w-full border-none h-32 rounded-t-xl"
+							className="object-cover w-full border-none h-52 rounded-t-xl"
 							alt="Single Project"
 						/>
-					{/* </div> */}
 					<div className="w-full px-4 py-6 text-center h-auto">
 						<p className="mb-2 text-lg font-general-medium md:text-xl text-ternary-dark dark:text-ternary-light">
 							{title}

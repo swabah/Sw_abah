@@ -5,7 +5,7 @@ import WebImage2 from '../images/web-project-2.jpg';
 import NylaImageDes from '../images/Nyla-web-design.jpg';
 import AdmissionImageDev from '../images/Admission-web-dev.png';
 import ahlussuffaImageDev from '../images/ahlussuffa-web-dev.jpg';
-import spoyOffersImageDev from '../images/spot-offers.png';
+import spotOffersImageDev from '../images/spot-offers.png';
 
 export const projectsData = [
 	{
@@ -47,7 +47,7 @@ export const projectsData = [
 		id: 5,
 		title: 'Spot Offers platform',
 		category: 'Web Design',
-		img: spoyOffersImageDev,
+		img: spotOffersImageDev,
 	},
 	{
 		id: 6,
