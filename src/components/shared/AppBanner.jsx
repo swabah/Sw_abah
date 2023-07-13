@@ -11,9 +11,9 @@ const AppBanner = () => {
 			initial={{ opacity: 0 }}
 			animate={{ opacity: 1 }}
 			transition={{ ease: 'easeInOut', duration: 0.9, delay: 0.2 }}
-			className="flex flex-col items-center w-full h-screen mt-12 sm:justify-between sm:flex-row md:mt-2"
+			className="flex flex-col items-center w-full h-[80vh] mt-12 sm:justify-between sm:flex-row md:mt-2"
 		>
-			<div className="w-full h-full text-left md:w-2/4">
+			<div className="w-full h-full flex flex-col md:items-start justify-center text-left md:w-2/4">
 				<motion.h1
 					initial={{ opacity: 0 }}
 					animate={{ opacity: 1 }}
@@ -24,7 +24,7 @@ const AppBanner = () => {
 					}}
 					className="text-2xl text-center uppercase font-general-semibold lg:text-3xl xl:text-4xl sm:text-left text-ternary-dark dark:text-primary-light"
 				>
-					Hi, Iam Stoman
+					Hi, Iam Sw_abah
 				</motion.h1>
 				<motion.p
 					initial={{ opacity: 0 }}
@@ -34,9 +34,9 @@ const AppBanner = () => {
 						duration: 0.9,
 						delay: 0.2,
 					}}
-					className="mt-4 text-lg leading-normal text-center text-gray-500 font-general-medium md:text-xl lg:text-2xl xl:text-3xl sm:text-left dark:text-gray-200"
+					className="mt-4 text-lg leading-normal text-center text-gray-500 capitalize font-general-normal md:text-xl lg:text-2xl xl:text-3xl sm:text-left dark:text-gray-200"
 				>
-					A Full-Stack Developer & Design Enthusiast
+					I'm a website developer with a great enthusiasm for coding.
 				</motion.p>
 				<motion.div
 					initial={{ opacity: 0 }}
@@ -65,7 +65,7 @@ const AppBanner = () => {
 				initial={{ opacity: 0, y: -180 }}
 				animate={{ opacity: 1, y: 0 }}
 				transition={{ ease: 'easeInOut', duration: 0.9, delay: 0.2 }}
-				className="float-right w-full mt-8 text-right sm:w-2/4 sm:mt-0"
+				className="float-right w-full  mt-8 text-right sm:w-2/4 sm:mt-0"
 			>
 				<img
 					src={programmer}

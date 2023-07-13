@@ -8,47 +8,52 @@ import SamsungImage from '../images/brands/samsung_gray.png';
 import CanonImage from '../images/brands/canon_gray.png';
 import PumaImage from '../images/brands/puma_gray.png';
 
-export const clientsHeading = 'Some of the brands that trust me';
+export const clientsHeading = 'My Expertise Area';
 
 export const clientsData = [
 	{
 		id: 1,
-		title: 'Amazon',
+		title: 'Web Design',
 		img: AmazonImage,
 	},
 	{
 		id: 2,
-		title: 'Sony',
+		title: 'Web Development',
 		img: SonyImage,
 	},
 	{
 		id: 3,
-		title: 'Adidas',
+		title: 'JavaScript',
 		img: AdidasImage,
 	},
 	{
 		id: 4,
-		title: 'FILA',
+		title: 'Content Writing',
 		img: FilaImage,
 	},
 	{
 		id: 5,
-		title: 'NB',
+		title: 'Tailwind',
 		img: NBImage,
 	},
 	{
 		id: 6,
-		title: 'SAMSUNG',
+		title: 'C',
 		img: SamsungImage,
 	},
 	{
 		id: 7,
-		title: 'CANON',
+		title: 'React js',
+		img: CanonImage,
+	},
+	{
+		id: 7,
+		title: 'Vue',
 		img: CanonImage,
 	},
 	{
 		id: 8,
-		title: 'PUMA',
+		title: 'Next js',
 		img: PumaImage,
 	},
 ];
